@@ -2,7 +2,7 @@
 
 Query the Euclidean Distance between points  and  and format your answer to display  decimal digits.
 
-Ans - SELECT
+Ans : SELECT
     ROUND(
         SQRT(
             POWER(MAX(LAT_N) - MIN(LAT_N), 2) +
