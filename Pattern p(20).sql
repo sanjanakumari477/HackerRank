@@ -1,11 +1,11 @@
-P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5):
+Que:- P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5):
 
-* * * * * 
-* * * * 
-* * * 
-* * 
-*
-Write a query to print the pattern P(20).
+    * * * * * 
+    * * * * 
+    * * * 
+    * * 
+    *
+    Write a query to print the pattern P(20).
 
 Ans :- WITH RECURSIVE pattern AS (
     SELECT 20 AS n
