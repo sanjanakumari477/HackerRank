@@ -26,7 +26,7 @@ HAVING
             SELECT hacker_id, COUNT(challenge_id) AS cnt
             FROM Challenges
             GROUP BY hacker_id
-        ) y
+        ) y 
         GROUP BY cnt
         HAVING COUNT(*) = 1
     )
